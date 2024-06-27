@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            color: aliceblue;
+            background:linear-gradient(rgb(21, 24, 34), rgb(32, 18, 32), rgb(27, 19, 46));
+            background-color: rgb(31, 30, 30);
+        }
+    </style>
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>
+        Inserindo videos hospedados loacalmente
+    </h1>
+    <p>
+        Esse video esta ospedado no meu proprio servidor.
+    </p>
+
+    <video src="midia/meu-video-720p60.mp4" width="300" controls loop></video>
+    
+    <p>Outra forma de colocar video</p>
+    <video controls width="500" loop>
+    <source src="midia/natureza.mp4" type="video/mp4">
+    </video>
+    <p>Inserindo videos do youtube</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=m432wqteqQ7TV5IO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
