@@ -9,4 +9,8 @@
     aside ul {
         columns: 1;
     }
+    
+    abbr {
+        text-decoration: none;
+    }
 }
