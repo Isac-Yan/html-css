@@ -39,13 +39,14 @@ main a {
     color: var(--cor-6);
 }
 
+
 :root {
-    --cor-1: #e063b0;
-    --cor-2: #CF2D91;
-    --cor-3: #A53F7E;
-    --cor-4: #7A4365;
-    --cor-5: #66335F;
-    --cor-6: #503947;
+    --cor-1: #539aeb;
+    --cor-2: #637AC0;
+    --cor-3: #667296;
+    --cor-4: #5B5F6B;
+    --cor-5: #171a24;
+    --cor-6: #232529;
 
     --font-padrao: Arial, verdana, Helvetica, sans-serif;
     --font-destaque: "Bebas", sans-serif;
