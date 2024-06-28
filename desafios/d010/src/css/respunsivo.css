@@ -6,4 +6,11 @@
         padding: 10px 0px;
         font-size: 0.85em;
     }
+    aside ul {
+        columns: 1;
+    }
+    
+    abbr {
+        text-decoration: none;
+    }
 }

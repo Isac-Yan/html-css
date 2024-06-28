@@ -58,6 +58,7 @@ body {
     font-family: var(--font-padrao);
 }
 
+
 a.externo::after {
     content: '\00A0\1F517';
 }
@@ -176,6 +177,10 @@ aside ul {
     list-style-type: '\1F5F8\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 footer {
