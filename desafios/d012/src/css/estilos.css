@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "font-escrita";
+    src: url(../font/HANDMADE-STARS.otf) format(opentype);
+    font-weight: 900;
+}
+
 * {
     margin: 0;
 }
@@ -19,6 +25,7 @@ header h1 {
 }
 
 main .fundo-branco {
+    font-family: "font-escrita";
     background-color: white;
     max-height: 600px;
     max-width: 450px;
