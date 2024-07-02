@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+
+header {
+    display: block;
+    background-color: black;
+    text-align: center;
+    color: white;
+    min-height: 260px;
+}
+
+header h1 {
+    padding: 40px;
+    font-size: 4em;
+}
+
+main .fundo-branco {
+    background-color: white;
+    max-height: 600px;
+    max-width: 450px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    font-size: 3em;
+}
+
+main .fundo-transparente {
+    background-color: rgba(0, 0, 0, 0.212);
+    color: white;
+}
+
+main #fundo-1 {
+    background-image: url("../imagens/background001.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    padding: 40px 0px;
+    position: relative;
+    height: 110vh;
+}
+
+main #fundo-1 .paragrafo-tansparente {
+    max-height: 700px;
+    max-width: 450px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.582);
+    font-size: 3em;
+    position: absolute;
+}
+
+main #fundo-2 {
+    background-image: url("../imagens/background002.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    padding: 40px 0px;
+    position: relative;
+    height: 110vh;
+
+}
+
+main #fundo-2 .paragrafo-tansparente {
+    background-position: left center;
+    max-height: 600px;
+    max-width: 450px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.582);
+    font-size: 3em;
+}
+
+
+footer {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+}
