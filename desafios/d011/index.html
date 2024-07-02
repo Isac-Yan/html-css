@@ -12,23 +12,36 @@
 
         body {
             height: 100vh;
-            background-image: url(img/espaco.jpg);
+            background-image: url("img/espaco.jpg");
             background-size: cover;
-            background-repeat: no-repeat;
+        }
+        section {
+            max-width: 600px;
+            max-height: 600px;
+            background-color: rgba(0, 0, 0, 0.13);
         }
 
-        main {
-            height: 100vh;
-            background-image: url(img/astronauta.png);
+        article {
+            height: 500px;
+            width: 500px;
+            background-image: url('img/astronauta.png');
             background-repeat: no-repeat;
-            background-position: center center;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 
 <body>
-    <main>
-    </main>
+    <section>
+        <article>
+
+        </article>
+    </section>
 </body>
 
 </html>
