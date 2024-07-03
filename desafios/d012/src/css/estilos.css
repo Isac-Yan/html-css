@@ -6,6 +6,29 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "font-titulo";
+    src: url(../font/Arista-Pro-Alternate-Bold-trial.ttf) format(truetype);
+}
+
+:root {
+    --font-principal: "font-titulo", sans-serif;
+    --font-secundaria: "font-escrita", sans-serif;
+}
+
+.fundo {
+    max-height: 98vh;
+    max-width: 36vw;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+p {
+    padding: 2vh 0px;
+}
+
 * {
     margin: 0;
 }
@@ -20,19 +43,33 @@ header {
 }
 
 header h1 {
-    padding: 40px;
-    font-size: 4em;
+    padding: 60px 0px 20px 0px;
+    font-size: 9vw;
+    font-family: var(--font-principal);
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-principal);
+}
+
+header p a:hover {
+    text-decoration: underline;
+    color: rgb(92, 92, 238);
+
+}
+
+main {
+    font-family: var(--font-secundaria);
+    font-size: 2.8vw;
+    background-color: white
 }
 
 main .fundo-branco {
-    font-family: "font-escrita";
     background-color: white;
-    max-height: 600px;
-    max-width: 450px;
     padding: 10px;
     margin: 20px;
-    background-color: white;
-    font-size: 3em;
 }
 
 main .fundo-transparente {
@@ -41,47 +78,59 @@ main .fundo-transparente {
 }
 
 main #fundo-1 {
+    background-attachment: fixed;
     background-image: url("../imagens/background001.jpg");
-    background-size: 100% 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px 0px;
     position: relative;
-    height: 110vh;
 }
 
 main #fundo-1 .paragrafo-tansparente {
-    max-height: 700px;
-    max-width: 450px;
-    padding: 20px;
+    max-height: 95vh;
+    max-width: 38vw;
+    padding-left: 5px;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.582);
-    font-size: 3em;
-    position: absolute;
 }
 
 main #fundo-2 {
+    background-attachment: fixed;
     background-image: url("../imagens/background002.jpg");
     background-size: 100% 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px 0px;
     position: relative;
-    height: 110vh;
-
 }
 
 main #fundo-2 .paragrafo-tansparente {
-    background-position: left center;
-    max-height: 600px;
-    max-width: 450px;
-    padding: 10px;
+    max-height: 95vh;
+    max-width: 38vw;
+    padding-left: 5px;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.582);
-    font-size: 3em;
 }
 
+article {
+    position: relative;
+    padding-top: 20px;
+}
 
 footer {
+    padding: 10px 0px;
     background-color: rgb(29, 29, 29);
     color: white;
     text-align: center;
+    font-size: 1.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(92, 92, 238);
 }
